@@ -10,7 +10,12 @@ app.engine('md', remarkable(app))
 app.set('view engine', 'md')
 
 app.get('/', (request, response) => {
-  response.render('index')
+  try {
+    response.render('index')
+  } catch(error) {
+    console.log("Error")
+    console.log(error)
+  }
 })
 
 app.get('/project-layout', (request, response) => {
