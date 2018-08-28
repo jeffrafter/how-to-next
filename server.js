@@ -10,11 +10,11 @@ app.engine('md', remarkable(app))
 app.set('view engine', 'md')
 
 app.get('/', (request, response) => {
-  response.render('index.md')
+  response.render('index')
 })
 
 app.get('/project-layout', (request, response) => {
-  response.render('project-layout.md')
+  response.render('project-layout')
 })
 
 
