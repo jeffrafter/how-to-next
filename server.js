@@ -16,6 +16,7 @@ app.get('/', (request, response) => {
   } catch(error) {
     console.log("Error")
     console.log(error)
+    response.send(JSON.stringify(error))
   }
 })
 
