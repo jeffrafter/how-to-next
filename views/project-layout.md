@@ -1,6 +1,7 @@
----
-title: Project layout
-template: templates/base.pug
----
+
+----
+ title: Project layout
+ template: templates/base.pug
+----
 
 Project Layout
