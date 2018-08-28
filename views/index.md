@@ -1,6 +1,6 @@
-------
- title: How to next
- template: templates/base.pug
+---
+title: How to next
+template: templates/base.pug
 ---
 
-How to next
+# How to next
